@@ -11,8 +11,9 @@ int main(){
     }
 
     int linhaNavio1 = 6, linhaNavio2 = 2; 
-    int colunaNavio1 = 4, colunaNavio2 = 5; 
+    int colunaNavio1 = 4, colunaNavio2 = 5;
     int orientacao1 = 1, orientacao2 = 0;
+    //Linha é [1, 2, 3, ...] --- Coluna é [A, B, C, ...]
 
     if (orientacao1 == 0) { // Horizontal
         for (int j = 0; j < 3; j++) {
